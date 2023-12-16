@@ -13,7 +13,6 @@ body{
       position: relative;
    }
    .pv{
-      /* margin-top: -370px; */
       position: absolute;
       top: -1%;
       left: 0%;
@@ -187,6 +186,7 @@ body{
    /* Pics */
    .pic{
       width: 175%;
+      height: 100%;
    }
    .pc{
       display: flex;
@@ -194,7 +194,7 @@ body{
    }
    .pc img{
       width: 50%;
-      
+      height: 100%;
    }
    /* Footer */
    .footer{
@@ -358,9 +358,8 @@ height:150px;
    text-shadow: 5px 5px 5px hsl(7, 99%, 70%);
 }
 .box1{
-   /* border:1px solid black; */
    width:50%;
-   height:370px;
+   height:400px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -368,37 +367,32 @@ height:150px;
 }
 .box2{
    width:50%;
-   height:370px;
+   height:400px;
 }
 .box3{
-   /* border:1px solid black; */
    width:50%;
-   height:370px;
+   height:400px;
 }
 .box4{
-   /* border:1px solid black; */
    width:50%;
-   height:370px;
+   height:400px;
    display: flex;
    flex-direction: column;
    justify-content: center;
    padding: 30px;
 }
 .box5{
-   /* border:1px solid black; */
+   
    width:50%;
-   height:370px;
-   /* display: flex; */
+   height:400px;
    color: hsl(167, 40%, 24%);
 }
 .box6{
-   /* border:1px solid black; */
    color: hsl(198, 62%, 26%);
    width:50%;
-   height:370px;
+   height:400px;
 }
 .fix{
-  /* border: 1px solid black; */
   margin-top: -137px;
   display: flex;
   flex-direction: column;
@@ -407,7 +401,7 @@ height:150px;
 }
 .boxes img{
   width: 100%;
-  height: 370px;
+  height: 400px;
 }
 
 /* Client */
@@ -464,7 +458,7 @@ height:150px;
   width: 100%;
   height: 270px;
   background-color: hsl(168, 94%, 41%);
-  color:hsl(167, 40%, 24%);;
+  color:hsl(167, 40%, 24%);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -473,7 +467,7 @@ height:150px;
 .footer .logo{
   border: 1px hidden black;
   margin: auto;
-  /* background: hsl(167, 40%, 24%); */
+  background-color: hsl(167, 40%, 24%);;
 }
 .flinks{
   border: 1px hidden black;
@@ -504,35 +498,5 @@ ul.flinks {
   color: hsl(167, 40%, 24%);
   padding: 15px;
 }
-
 }
  
- /* @media screen and (max-width:426px){
-   .mn{
-      display: block;
-   }
-   div.box-fix{
-      width: 100%;
-      height: auto;
-   }
-   .box1, .box2{
-      width: 100%;
-      height: auto;
-   }
-   .box3{
-      width: 100%;
-      height: auto;
-   }
-   .box4{
-      width: 100%;
-      height: auto;
-   }
-   .box5{
-      width: 100%;
-      height: auto;
-   }
-   .box6{
-      width: 100%;
-      height: 200px;
-   }
- } */
